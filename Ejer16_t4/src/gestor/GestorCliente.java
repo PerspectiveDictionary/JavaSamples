@@ -63,7 +63,7 @@ public class GestorCliente {
         }return Cliente.cabecera+cadena;
     }
     public String bajaCliente(String nombre) {
-        buscaPrimerCliente(nombre)=null;
+        //buscaPrimerCliente(nombre)="";
         return "Correcto";
     }
 }
